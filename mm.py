@@ -39,8 +39,8 @@ def writeTotxt(SplitSten):
 
 
 
-        
-def listToSentence(_list):
+  #对此处进行修改      
+#def listToSentence(_list):
     for i in _list:
         str=i.decode('unicode-escape')
         writeTotxt(str)
